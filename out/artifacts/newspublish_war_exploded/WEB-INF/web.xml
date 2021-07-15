@@ -22,24 +22,24 @@
     <servlet-name>ArticleShowList</servlet-name>
     <servlet-class>ruanko.newspublish.action.article.ArticleShowList</servlet-class>
   </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ArticleDeleteList</servlet-name>
-    <servlet-class>ruanko.newspublish.action.article.ArticleDeleteList</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <description>This is the description of my J2EE component</description>-->
+<!--    <display-name>This is the display name of my J2EE component</display-name>-->
+<!--    <servlet-name>ArticleDeleteList</servlet-name>-->
+<!--    <servlet-class>ruanko.newspublish.action.article.ArticleDeleteList</servlet-class>-->
+<!--  </servlet>-->
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ArticleShow</servlet-name>
     <servlet-class>ruanko.newspublish.action.article.ArticleShow</servlet-class>
   </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ArticleUpdateList</servlet-name>
-    <servlet-class>ruanko.newspublish.action.article.ArticleUpdateList</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <description>This is the description of my J2EE component</description>-->
+<!--    <display-name>This is the display name of my J2EE component</display-name>-->
+<!--    <servlet-name>ArticleUpdateList</servlet-name>-->
+<!--    <servlet-class>ruanko.newspublish.action.article.ArticleUpdateList</servlet-class>-->
+<!--  </servlet>-->
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
@@ -59,10 +59,33 @@
     <servlet-class>ruanko.newspublish.action.user.UserLogin</servlet-class>
   </servlet>
   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UserRegister</servlet-name>
     <servlet-class>ruanko.newspublish.action.user.UserRegister</servlet-class>
+  </servlet>
+<!--  Wisdom.Medical-->
+  <servlet>
+    <servlet-name>PatientAdd</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PatientDelete</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PatientShowList</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientShowList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PatientShow</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientShow</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PatientUpdate</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PatientUpdateDo</servlet-name>
+    <servlet-class>com.wisdommedical.action.patient.PatientUpdateDo</servlet-class>
   </servlet>
 
 
@@ -85,16 +108,8 @@
     <url-pattern>/ArticleShowList</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>ArticleDeleteList</servlet-name>
-    <url-pattern>/ArticleDeleteList</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
     <servlet-name>ArticleShow</servlet-name>
     <url-pattern>/ArticleShow</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ArticleUpdateList</servlet-name>
-    <url-pattern>/ArticleUpdateList</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ArticleUpdate</servlet-name>
@@ -112,7 +127,32 @@
     <servlet-name>UserRegister</servlet-name>
     <url-pattern>/UserRegister</url-pattern>
   </servlet-mapping>
+<!--  WisdomMedical-->
+  <servlet-mapping>
+    <servlet-name>PatientAdd</servlet-name>
+    <url-pattern>/WisdomMedical/PatientAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientDelete</servlet-name>
+    <url-pattern>/WisdomMedical/PatientDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientShow</servlet-name>
+    <url-pattern>/WisdomMedical/PatientShow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientShowList</servlet-name>
+    <url-pattern>/WisdomMedical/PatientShowList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientUpdate</servlet-name>
+    <url-pattern>/WisdomMedical/PatientUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientUpdateDo</servlet-name>
+    <url-pattern>/WisdomMedical/PatientUpdateDo</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
-    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>/wisdommedical/index.jsp</welcome-file>
   </welcome-file-list>
 </web-app>

@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    智慧医疗系统<a href="ArticleShowList">点击进入</a><br>
+    鏅烘収鍖荤枟绯荤粺<a href="WisdomMedical/PatientShowList">鐐瑰嚮杩涘叆</a><br>
     
   </body>
 </html>

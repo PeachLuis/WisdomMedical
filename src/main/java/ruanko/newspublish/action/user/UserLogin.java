@@ -19,7 +19,7 @@ public class UserLogin extends HttpServlet {
         boolean flag = userBiz.judgeUser(user);
 
         if (flag) {
-            req.getRequestDispatcher("index.jsp").forward(req, resp);
+            req.getRequestDispatcher("wisdommedical/index.jsp").forward(req, resp);
         } else {
             req.getRequestDispatcher("error.jsp").forward(req, resp);
         }
