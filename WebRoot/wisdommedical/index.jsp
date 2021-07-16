@@ -13,7 +13,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    智慧医疗系统<a href="WisdomMedical/PatientShowList">点击进入</a><br>
+  智慧医疗系统<a href="WisdomMedical/DoctorShowList">点击进入</a><br>
+
+  <%--    智慧医疗系统<a href="WisdomMedical/PatientShowList">点击进入</a><br>--%>
     
   </body>
 </html>

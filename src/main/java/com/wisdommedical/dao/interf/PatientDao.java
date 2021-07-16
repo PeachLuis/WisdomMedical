@@ -1,7 +1,6 @@
 package com.wisdommedical.dao.interf;
 
 import com.wisdommedical.entity.Patient;
-import ruanko.newspublish.dao.BaseDao;
 
 import java.util.ArrayList;
 
